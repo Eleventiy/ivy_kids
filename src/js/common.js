@@ -33,6 +33,22 @@ $(function () {
 	});
 
 
+	// Accordions
+	$('#accordion-courses').accordion({
+		collapsible: true,
+		heightStyle: "content",
+		animate: 500,
+		classes: {
+			"ui-accordion-header-collapsed": "ui-corner-all",
+			"ui-accordion-header-active": "ui-corner-all"
+		}
+	});
+
+
+	//Slider
+	$('#benefitsSlider').slick({});
+
+
 	// Mobile
 	// var mobileSandwich = $('#mobileSandwich'),
 	// 		mobileCloseSandwich = $('#mobileCloseSandwich');

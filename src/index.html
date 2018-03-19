@@ -52,8 +52,16 @@
 		<!-- Font Awesome Icons -->
 		<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
 
+		<!-- JQuery UI -->
+		<link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+		<!-- Slick carousel -->
+		<link rel="stylesheet" href="vendors/slick-carousel/slick/slick.css">
+		<link rel="stylesheet" href="vendors/slick-carousel/slick/slick-theme.css">
+
 		<!-- Custom styles -->
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
 	</head>
 
 	<body>
@@ -218,7 +226,7 @@
 			</section>
 			<!--/. Main banner -->
 
-			<!-- Direction about block -->
+			<!-- Direction about section -->
 			<section class="direction-about">
 
 				<div class="container">
@@ -334,11 +342,697 @@
 				</div>
 
 			</section>
-			<!--/. Direction about block -->
+			<!--/. Direction about section -->
 
-			<!-- Main accordions -->
+			<!-- Direction courses section -->
+			<section class="direction-courses">
 
-			<!--/. Main accordions -->
+				<div class="container">
+
+					<div class="direction-courses__wrapper">
+
+						<!-- Courses accordion -->
+						<div class="courses-accordion" id="accordion-courses">
+
+							<!-- Item #1 -->
+							<h3 class="accordion-header bg-orange">
+								<span class="accordion-header__number">1</span>
+								<span class="accordion-header__title">подготовительная программа по математике</span>
+								<span class="accordion-header__price">
+									<small>цена</small>
+									<b>230$</b>
+									<small>в месяц</small>
+								</span>
+								<button class="accordion-header__btn" id="accordionBtn1">подробнее</button>
+							</h3>
+							<div class="accordion-content">
+
+								<div class="accordion-content__descr">
+									<div class="accordion-content__text pattern-notepadCells">
+										<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+									</div>
+								</div>
+
+								<div class="accordion-benefits">
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-orange">
+											<span>что нужно:</span>
+										</div>
+
+										<div class="accordion-benefit__list">
+											<ul class="pattern-notepadCells">
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+											</ul>
+										</div>
+
+									</div>
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-orange">
+											<span>Чему научатся дети:</span>
+										</div>
+
+										<div class="accordion-benefit__list  accordion-benefit__list--tech">
+
+											<ul class="pattern-notepadCells">
+												<li>узнавать все буквы</li>
+												<li>читать слоги, слова и простые предложения</li>
+												<li>знать правила чтения букв</li>
+												<li>писать буквы, слоги и простые слова печатными буквами</li>
+												<li>списывать простые предложения с примера</li>
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-notice">
+
+									<div class="accordion-notice__wrapper pattern-notepadCells">
+
+										<figure class="accordion-notice__img">
+											<img src="img/icons/notice.png" alt="Иконка уведомления">
+										</figure>
+
+										<div class="accordion-notice__descr">
+											<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-info">
+
+									<div class="accordion-info__duration">
+										<p>Длительность курса - <b>месяц</b></p>
+									</div>
+
+									<div class="accordion-info__price">
+										<p>Стоимость - <b>230$</b></p>
+									</div>
+
+								</div>
+
+								<div class="accordion-order">
+
+									<a class="accordion-order__btn bg-orange" href="#">оставить заявку</a>
+
+								</div>
+
+							</div>
+							<!--/. Item #1 -->
+
+							<!-- Item #2 -->
+							<h3 class="accordion-header bg-blue">
+								<span class="accordion-header__number">2</span>
+								<span class="accordion-header__title">первый уровень математики</span>
+								<span class="accordion-header__price">
+									<small>цена</small>
+									<b>230$</b>
+									<small>в месяц</small>
+								</span>
+								<button class="accordion-header__btn" id="accordionBtn2">подробнее</button>
+							</h3>
+							<div class="accordion-content">
+
+								<div class="accordion-content__descr">
+									<div class="accordion-content__text pattern-notepadCells">
+										<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+									</div>
+								</div>
+
+								<div class="accordion-benefits">
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-blue">
+											<span>что нужно:</span>
+										</div>
+
+										<div class="accordion-benefit__list">
+											<ul class="pattern-notepadCells">
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+											</ul>
+										</div>
+
+									</div>
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-blue">
+											<span>Чему научатся дети:</span>
+										</div>
+
+										<div class="accordion-benefit__list  accordion-benefit__list--tech">
+
+											<ul class="pattern-notepadCells">
+												<li>узнавать все буквы</li>
+												<li>читать слоги, слова и простые предложения</li>
+												<li>знать правила чтения букв</li>
+												<li>писать буквы, слоги и простые слова печатными буквами</li>
+												<li>списывать простые предложения с примера</li>
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-notice">
+
+									<div class="accordion-notice__wrapper pattern-notepadCells">
+
+										<figure class="accordion-notice__img">
+											<img src="img/icons/notice.png" alt="Иконка уведомления">
+										</figure>
+
+										<div class="accordion-notice__descr">
+											<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-info">
+
+									<div class="accordion-info__duration">
+										<p>Длительность курса - <b>месяц</b></p>
+									</div>
+
+									<div class="accordion-info__price">
+										<p>Стоимость - <b>230$</b></p>
+									</div>
+
+								</div>
+
+								<div class="accordion-order">
+
+									<a class="accordion-order__btn bg-blue" href="#">оставить заявку</a>
+
+								</div>
+
+							</div>
+							<!--/. Item #2 -->
+
+							<!-- Item #3 -->
+							<h3 class="accordion-header bg-green">
+								<span class="accordion-header__number">3</span>
+								<span class="accordion-header__title">математика уровня 2 класса</span>
+								<span class="accordion-header__price">
+									<small>цена</small>
+									<b>230$</b>
+									<small>в месяц</small>
+								</span>
+								<button class="accordion-header__btn" id="accordionBtn3">подробнее</button>
+							</h3>
+							<div class="accordion-content">
+
+								<div class="accordion-content__descr">
+									<div class="accordion-content__text pattern-notepadCells">
+										<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+									</div>
+								</div>
+
+								<div class="accordion-benefits">
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-green">
+											<span>что нужно:</span>
+										</div>
+
+										<div class="accordion-benefit__list">
+											<ul class="pattern-notepadCells">
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+											</ul>
+										</div>
+
+									</div>
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-green">
+											<span>Чему научатся дети:</span>
+										</div>
+
+										<div class="accordion-benefit__list  accordion-benefit__list--tech">
+
+											<ul class="pattern-notepadCells">
+												<li>узнавать все буквы</li>
+												<li>читать слоги, слова и простые предложения</li>
+												<li>знать правила чтения букв</li>
+												<li>писать буквы, слоги и простые слова печатными буквами</li>
+												<li>списывать простые предложения с примера</li>
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-notice">
+
+									<div class="accordion-notice__wrapper pattern-notepadCells">
+
+										<figure class="accordion-notice__img">
+											<img src="img/icons/notice.png" alt="Иконка уведомления">
+										</figure>
+
+										<div class="accordion-notice__descr">
+											<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-info">
+
+									<div class="accordion-info__duration">
+										<p>Длительность курса - <b>месяц</b></p>
+									</div>
+
+									<div class="accordion-info__price">
+										<p>Стоимость - <b>230$</b></p>
+									</div>
+
+								</div>
+
+								<div class="accordion-order">
+
+									<a class="accordion-order__btn bg-green" href="#">оставить заявку</a>
+
+								</div>
+
+							</div>
+							<!--/. Item #3 -->
+
+							<!-- Item #4 -->
+							<h3 class="accordion-header bg-red">
+								<span class="accordion-header__number">4</span>
+								<span class="accordion-header__title">математика уровня 3 класса</span>
+								<span class="accordion-header__price">
+									<small>цена</small>
+									<b>230$</b>
+									<small>в месяц</small>
+								</span>
+								<button class="accordion-header__btn" id="accordionBtn4">подробнее</button>
+							</h3>
+							<div class="accordion-content">
+
+								<div class="accordion-content__descr">
+									<div class="accordion-content__text pattern-notepadCells">
+										<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+									</div>
+								</div>
+
+								<div class="accordion-benefits">
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-red">
+											<span>что нужно:</span>
+										</div>
+
+										<div class="accordion-benefit__list">
+											<ul class="pattern-notepadCells">
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+											</ul>
+										</div>
+
+									</div>
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-red">
+											<span>Чему научатся дети:</span>
+										</div>
+
+										<div class="accordion-benefit__list  accordion-benefit__list--tech">
+
+											<ul class="pattern-notepadCells">
+												<li>узнавать все буквы</li>
+												<li>читать слоги, слова и простые предложения</li>
+												<li>знать правила чтения букв</li>
+												<li>писать буквы, слоги и простые слова печатными буквами</li>
+												<li>списывать простые предложения с примера</li>
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-notice">
+
+									<div class="accordion-notice__wrapper pattern-notepadCells">
+
+										<figure class="accordion-notice__img">
+											<img src="img/icons/notice.png" alt="Иконка уведомления">
+										</figure>
+
+										<div class="accordion-notice__descr">
+											<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-info">
+
+									<div class="accordion-info__duration">
+										<p>Длительность курса - <b>месяц</b></p>
+									</div>
+
+									<div class="accordion-info__price">
+										<p>Стоимость - <b>230$</b></p>
+									</div>
+
+								</div>
+
+								<div class="accordion-order">
+
+									<a class="accordion-order__btn bg-red" href="#">оставить заявку</a>
+
+								</div>
+
+							</div>
+							<!--/. Item #4 -->
+
+							<!-- Item #5 -->
+							<h3 class="accordion-header bg-orange">
+								<span class="accordion-header__number">5</span>
+								<span class="accordion-header__title">математика уровня 4-го класса</span>
+								<span class="accordion-header__price">
+									<small>цена</small>
+									<b>230$</b>
+									<small>в месяц</small>
+								</span>
+								<button class="accordion-header__btn" id="accordionBtn5">подробнее</button>
+							</h3>
+							<div class="accordion-content">
+
+								<div class="accordion-content__descr">
+									<div class="accordion-content__text pattern-notepadCells">
+										<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+									</div>
+								</div>
+
+								<div class="accordion-benefits">
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-orange">
+											<span>что нужно:</span>
+										</div>
+
+										<div class="accordion-benefit__list">
+											<ul class="pattern-notepadCells">
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+												<li>хорошо себя вести</li>
+												<li>желание учиться</li>
+											</ul>
+										</div>
+
+									</div>
+
+									<div class="accordion-benefit">
+
+										<div class="accordion-benefit__header bg-orange">
+											<span>Чему научатся дети:</span>
+										</div>
+
+										<div class="accordion-benefit__list  accordion-benefit__list--tech">
+
+											<ul class="pattern-notepadCells">
+												<li>узнавать все буквы</li>
+												<li>читать слоги, слова и простые предложения</li>
+												<li>знать правила чтения букв</li>
+												<li>писать буквы, слоги и простые слова печатными буквами</li>
+												<li>списывать простые предложения с примера</li>
+											</ul>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-notice">
+
+									<div class="accordion-notice__wrapper pattern-notepadCells">
+
+										<figure class="accordion-notice__img">
+											<img src="img/icons/notice.png" alt="Иконка уведомления">
+										</figure>
+
+										<div class="accordion-notice__descr">
+											<p>IVY Kids - новый трехъязычный образовательный центр в Праге, основная цель которого - качественно и интересно научить ваших детей чтению, письму и математике</p>
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="accordion-info">
+
+									<div class="accordion-info__duration">
+										<p>Длительность курса - <b>месяц</b></p>
+									</div>
+
+									<div class="accordion-info__price">
+										<p>Стоимость - <b>230$</b></p>
+									</div>
+
+								</div>
+
+								<div class="accordion-order">
+
+									<a class="accordion-order__btn bg-orange" href="#">оставить заявку</a>
+
+								</div>
+
+							</div>
+							<!--/. Item #5 -->
+
+						</div>
+						<!--/. Courses accordion -->
+
+					</div>
+
+				</div>
+
+			</section>
+			<!--/. Direction courses section -->
+
+			<!-- Direction benefits section -->
+			<section class="direction-benefits pattern-dotted">
+
+				<div class="container">
+
+					<div class="benefits-slider" id="benefitsSlider">
+
+						<!-- Slider item #1 -->
+						<div class="slider-item" style="background: #fff url('img/backgrounds/benefit1.jpg') no-repeat center;
+						-webkit-background-size: cover;background-size: cover;">
+
+							<h2 class="slider-item__title">Современные учебные материалы</h2>
+
+							<div class="slider-item__descr">
+								<p>Процесс обучения построен на современных материалых ведущих изданий Росии (Клевер, МИФ, Феникс)</p>
+							</div>
+
+							<div class="slider-item__link">
+								<a href="#">Библиотека</a>
+							</div>
+
+						</div>
+						<!--/. Slider item #1 -->
+
+						<!-- Slider item #2 -->
+						<div class="slider-item" style="background: #fff url('img/backgrounds/benefit1.jpg') no-repeat center;
+						-webkit-background-size: cover;background-size: cover;">
+
+							<h2 class="slider-item__title">Современные учебные материалы</h2>
+
+							<div class="slider-item__descr">
+								<p>Процесс обучения построен на современных материалых ведущих изданий Росии (Клевер, МИФ, Феникс)</p>
+							</div>
+
+							<div class="slider-item__link">
+								<a href="#">Библиотека</a>
+							</div>
+
+						</div>
+						<!--/. Slider item #2 -->
+
+						<!-- Slider item #3 -->
+						<div class="slider-item" style="background: #fff url('img/backgrounds/benefit1.jpg') no-repeat center;
+						-webkit-background-size: cover;background-size: cover;">
+
+							<h2 class="slider-item__title">Современные учебные материалы</h2>
+
+							<div class="slider-item__descr">
+								<p>Процесс обучения построен на современных материалых ведущих изданий Росии (Клевер, МИФ, Феникс)</p>
+							</div>
+
+							<div class="slider-item__link">
+								<a href="#">Библиотека</a>
+							</div>
+
+						</div>
+						<!--/. Slider item #3 -->
+
+						<!-- Slider item #4 -->
+						<div class="slider-item" style="background: #fff url('img/backgrounds/benefit1.jpg') no-repeat center;
+						-webkit-background-size: cover;background-size: cover;">
+
+							<h2 class="slider-item__title">Современные учебные материалы</h2>
+
+							<div class="slider-item__descr">
+								<p>Процесс обучения построен на современных материалых ведущих изданий Росии (Клевер, МИФ, Феникс)</p>
+							</div>
+
+							<div class="slider-item__link">
+								<a href="#">Библиотека</a>
+							</div>
+
+						</div>
+						<!--/. Slider item #4 -->
+
+						<!-- Slider item #5 -->
+						<div class="slider-item" style="background: #fff url('img/backgrounds/benefit1.jpg') no-repeat center;
+						-webkit-background-size: cover;background-size: cover;">
+
+							<h2 class="slider-item__title">Современные учебные материалы</h2>
+
+							<div class="slider-item__descr">
+								<p>Процесс обучения построен на современных материалых ведущих изданий Росии (Клевер, МИФ, Феникс)</p>
+							</div>
+
+							<div class="slider-item__link">
+								<a href="#">Библиотека</a>
+							</div>
+
+						</div>
+						<!--/. Slider item #5 -->
+
+						<!-- Slider item #6 -->
+						<div class="slider-item" style="background: #fff url('img/backgrounds/benefit1.jpg') no-repeat center;
+						-webkit-background-size: cover;background-size: cover;">
+
+							<h2 class="slider-item__title">Современные учебные материалы</h2>
+
+							<div class="slider-item__descr">
+								<p>Процесс обучения построен на современных материалых ведущих изданий Росии (Клевер, МИФ, Феникс)</p>
+							</div>
+
+							<div class="slider-item__link">
+								<a href="#">Библиотека</a>
+							</div>
+
+						</div>
+						<!--/. Slider item #6 -->
+
+					</div>
+
+				</div>
+
+			</section>
+			<!--/. Direction benefits section -->
+
+			<!-- Direction testing section -->
+			<section class="direction-testing">
+
+				<div class="container">
+
+					<div class="testing-block pattern-question">
+
+						<div class="testing-block__wrapper">
+
+							<div class="testing-block__descr">
+								<h2>Хотите оценить уровень подготовки?</h2>
+								<p>Пройдите небольшой тест и мы поможем выбрать наиболее подходящий уровень обучения для вашего
+									 ребенка</p>
+							</div>
+
+							<div class="testing-block__link">
+								<a class="testing-block__btn" href="#">Пройти тест</a>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</section>
+			<!--/. Direction testing section -->
+
+			<!-- "Tips" block -->
+			<section class="tips-block pattern-dotted">
+
+				<div class="container">
+
+					<h3 class="tips-block__title">Полезная информация</h3>
+
+					<div class="tips-list">
+
+						<!-- Item #1 -->
+						<div class="tips-item">
+
+							<div class="tips-item__icon">
+								<img src="img/icons/desktop.png" alt="Иконка">
+							</div>
+
+							<div class="tips-item__content">
+								<h4>Домашнее задание</h4>
+								<a href="#">Скачать</a>
+							</div>
+
+						</div>
+						<!--/. Item #1 -->
+
+						<!-- Item #2 -->
+						<div class="tips-item">
+
+							<div class="tips-item__icon">
+								<img src="img/icons/education.png" alt="Иконка">
+							</div>
+
+							<div class="tips-item__content">
+								<h4>Программа уроков</h4>
+								<a href="#">Скачать</a>
+							</div>
+
+						</div>
+						<!--/. Item #2 -->
+
+					</div>
+
+				</div>
+
+			</section>
+			<!--/. "Tips" block -->
 
 		</main>
 		<!--/. MAIN CONTENT -->
@@ -463,16 +1157,27 @@
 		<!--/. MAIN FOOTER -->
 
 
-		<!-- JQuery-->
-		<script src="vendors/jquery/dist/jquery.min.js"></script>
+		<!-- JQuery -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.min.js"
+			integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+			crossorigin="anonymous"></script>
+
+		<!-- JQuery UI -->
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+						integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+						crossorigin="anonymous"></script>
 
 		<!-- Bootstrap -->
 		<script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-		
+
 		<!-- Readmore-js -->
 		<script src="vendors/readmore-js/readmore.min.js"></script>
 		<!--/. Readmore-js -->
 
+		<!-- Slick carousel -->
+		<script src="vendors/slick-carousel/slick/slick.min.js"></script>
+		<!--/. Slick carousel -->
 
 		<!-- Custom scripts -->
 		<script src="js/common.js"></script>

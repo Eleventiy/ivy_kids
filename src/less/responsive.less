@@ -1,0 +1,53 @@
+// Mobile versions
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+	.top-line {
+		order: 1;
+	}
+
+	.top-line__wrapper,
+	.bottom-line__wrapper,
+	.top-line__nav-list,
+	.bottom-line__nav-list {
+		flex-direction: column;
+	}
+
+}
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+// Tablet versions
+@media screen and (min-width: 768px) and (max-width: 991px) {  }
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+// Laptop versions
+@media screen and (min-width: 992px) and (max-width: 1199px) {  }
+// ---------------------------------------------------------------------------------------------------------------------
+
+
+//Desktop versions
+@media screen and (max-width: 1580px) {
+
+	.direction-about__wrapper::after {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 1650px) {
+
+	.direction-courses__wrapper::after,
+	.direction-courses__wrapper::before {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width: 1800px) {
+
+	.tips-block::before {
+		display: none;
+	}
+
+}
