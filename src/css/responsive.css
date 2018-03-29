@@ -1,0 +1,34 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .top-line {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .top-line__wrapper,
+  .bottom-line__wrapper,
+  .top-line__nav-list,
+  .bottom-line__nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media screen and (max-width: 1580px) {
+  .direction-about__wrapper::after {
+    display: none;
+  }
+}
+@media screen and (max-width: 1650px) {
+  .direction-courses__wrapper::after,
+  .direction-courses__wrapper::before {
+    display: none;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .tips-block::before {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
